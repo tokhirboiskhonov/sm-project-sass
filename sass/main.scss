@@ -192,22 +192,20 @@ ul > li {
 
     .hero__info {
       position: absolute;
-      top: 0;
-      left: 0;
-    }
-
-    .hero__info {
-      position: relative;
+      top: 105%;
+      left: 25%;
       z-index: 3;
       color: #fff;
       opacity: 0;
-      transform: translateY(30px);
+      transform: translate(-50%, -50%);
       transition: 0.5s;
       text-align: center;
 
       &-text {
         letter-spacing: 1px;
-        font-size: 24px;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
       }
     }
   }
